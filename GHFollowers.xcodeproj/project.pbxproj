@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		647E7A61244D51D100D6257D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E7A60244D51D100D6257D /* AppDelegate.swift */; };
 		647E7A63244D51D100D6257D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E7A62244D51D100D6257D /* SceneDelegate.swift */; };
-		647E7A65244D51D100D6257D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E7A64244D51D100D6257D /* ViewController.swift */; };
-		647E7A68244D51D100D6257D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647E7A66244D51D100D6257D /* Main.storyboard */; };
 		647E7A6A244D51ED00D6257D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647E7A69244D51ED00D6257D /* Assets.xcassets */; };
 		647E7A6D244D51ED00D6257D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647E7A6B244D51ED00D6257D /* LaunchScreen.storyboard */; };
+		647E7A75244D5DB300D6257D /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E7A74244D5DB300D6257D /* SearchVC.swift */; };
+		647E7A77244D5E0600D6257D /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E7A76244D5E0600D6257D /* FavoritesListVC.swift */; };
+		647E7A79244E0D5700D6257D /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E7A78244E0D5700D6257D /* GFButton.swift */; };
+		647E7A7B244E107400D6257D /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E7A7A244E107400D6257D /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		647E7A5D244D51D100D6257D /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647E7A60244D51D100D6257D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		647E7A62244D51D100D6257D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		647E7A64244D51D100D6257D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		647E7A67244D51D100D6257D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		647E7A69244D51ED00D6257D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		647E7A6C244D51ED00D6257D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		647E7A6E244D51ED00D6257D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647E7A74244D5DB300D6257D /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		647E7A76244D5E0600D6257D /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		647E7A78244E0D5700D6257D /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		647E7A7A244E107400D6257D /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				647E7A60244D51D100D6257D /* AppDelegate.swift */,
 				647E7A62244D51D100D6257D /* SceneDelegate.swift */,
-				647E7A64244D51D100D6257D /* ViewController.swift */,
-				647E7A66244D51D100D6257D /* Main.storyboard */,
 				647E7A69244D51ED00D6257D /* Assets.xcassets */,
 				647E7A6B244D51ED00D6257D /* LaunchScreen.storyboard */,
 				647E7A6E244D51ED00D6257D /* Info.plist */,
+				647E7A74244D5DB300D6257D /* SearchVC.swift */,
+				647E7A76244D5E0600D6257D /* FavoritesListVC.swift */,
+				647E7A78244E0D5700D6257D /* GFButton.swift */,
+				647E7A7A244E107400D6257D /* GFTextField.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -127,7 +133,6 @@
 			files = (
 				647E7A6D244D51ED00D6257D /* LaunchScreen.storyboard in Resources */,
 				647E7A6A244D51ED00D6257D /* Assets.xcassets in Resources */,
-				647E7A68244D51D100D6257D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647E7A65244D51D100D6257D /* ViewController.swift in Sources */,
+				647E7A7B244E107400D6257D /* GFTextField.swift in Sources */,
+				647E7A77244D5E0600D6257D /* FavoritesListVC.swift in Sources */,
+				647E7A79244E0D5700D6257D /* GFButton.swift in Sources */,
+				647E7A75244D5DB300D6257D /* SearchVC.swift in Sources */,
 				647E7A61244D51D100D6257D /* AppDelegate.swift in Sources */,
 				647E7A63244D51D100D6257D /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		647E7A66244D51D100D6257D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				647E7A67244D51D100D6257D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		647E7A6B244D51ED00D6257D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.hemin.GHFollowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.hemin.GHFollowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
