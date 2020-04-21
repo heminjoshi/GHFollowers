@@ -43,6 +43,7 @@ class GFTextField: UITextField {
         
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
+        returnKeyType = .search
         placeholder = "Enter a username"
     }
 }
