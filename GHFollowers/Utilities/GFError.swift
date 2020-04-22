@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Hemin Joshi on 4/21/20.
+//  Created by Hemin Joshi on 4/22/20.
 //  Copyright © 2020 Hemin Joshi. All rights reserved.
 //
 
