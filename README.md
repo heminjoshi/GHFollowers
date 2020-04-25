@@ -1,4 +1,4 @@
-# App Premise:
+# App Premise
 
 - The user can enter a GitHub username and retrieve a list of that username's followers.
 - The user can search within these followers for a specific follower.
@@ -7,14 +7,14 @@
 
 
 
-# Design:
+# Design
 
 - 100% programmatic UI - No Storyboard
 - No 3rd Party Libraries
 
 
 
-# Details:
+# Details
 
 - Used the GitHub API - No authentication needed 
   - Followers endpoint - https://developer.github.com/v3/users/followers/
